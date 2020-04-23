@@ -55,9 +55,9 @@ var ToDoApp = React.createClass({
         var filterToDos = ToDoAPI.filterToDos(todos, showCompleted, searchText);
 
         return (
-           <div>
+           <div className="container__main">
                <h1 className="page-title">To Do App</h1>
-
+               <h5 className="page-title__author">by Richard Aquino</h5>
                <div className="row">
                     <div className="column small-centered small-11 medium-6 large-5">
                         <div>
